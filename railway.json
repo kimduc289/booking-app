@@ -1,0 +1,17 @@
+{
+  "id": "booking-app",
+  "name": "Booking App",
+  "builder": "dockerfile",
+  "services": [
+    {
+      "name": "backend",
+      "path": "./backend",
+      "dockerfile": "./backend/Dockerfile"
+    },
+    {
+      "name": "frontend",
+      "path": "./frontend",
+      "dockerfile": "./frontend/Dockerfile"
+    }
+  ]
+}
