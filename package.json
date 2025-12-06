@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Simple booking app",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
     "main": "backend/server.js",
   "scripts": {
     "start": "cd backend && npm start",
