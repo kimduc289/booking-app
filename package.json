@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Simple booking app",
   "private": true,
+    "main": "backend/server.js",
   "scripts": {
+    "start": "cd backend && npm start",
     "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
     "dev": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\""
   }
